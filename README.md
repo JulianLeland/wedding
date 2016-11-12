@@ -1,2 +1,2 @@
-# OurWedding
+# Wedding
 Avery and Julian are getting married!
