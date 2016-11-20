@@ -1,0 +1,140 @@
+/*
+Colors:
+ - #fffef9: Cream
+ - #333: Dark grey
+ - #b1b1b1: Lighter grey for links
+
+*/
+
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #fffef9;
+}
+.navbar-custom {
+  /*background-color: rgba(255, 255, 255, 0);*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px 0 50px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+h4 {
+  margin: 75px 0px 20px;
+}
+
+.brand-heading {
+  text-shadow:0 0 5px rgba(0,0,0,.5);
+}
+
+.bullet {
+  text-align: left;
+}
+
+.bullet ul {
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.bullet li {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 16px;
+  margin: -5px 0;
+}
+
+.bullet a {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b1b1b1;
+  text-decoration: underline;
+}
+
+.bullet a:hover,
+.bullet a:focus {
+  color: #333;
+}
+
+.navbar-custom {
+  text-transform: uppercase;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-shadow:0 0 3px rgba(0,0,0,.5);
+}
+.navbar-custom .navbar-toggle {
+  color: #fffef9;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  background-color: #333;
+  margin-bottom: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-shadow:0 0px 0px rgba(0,0,0,0);
+}
+
+
+@media {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.intro {
+  background: url(../img/AJFirepit_V2.jpg) no-repeat top center scroll;
+  background-size: cover;
+}
+
+.intro .intro-body .brand-heading {
+  font-size: 60px;
+}
+
+
+@media (min-width: 767px) {
+
+  .btn-default {
+  border: 1px solid #949494;
+  color: #949494;
+  background-color: transparent;
+  }
+  
+  .content-section {
+  padding-top: 100px;
+  }
+  
+  .navbar-custom.top-nav-collapse {
+  padding: 0;
+  background: #333;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .navbar-custom {
+    background-color: #333;
+  }
+} 
+
+footer {
+  background-color: #333;
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fffef9;
+}
+
+footer a {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #b1b1b1;
+  text-decoration: underline;
+}
+footer a:hover,
+footer a:focus {
+  color: #fffef9;
+  text-decoration: underline;
+}
