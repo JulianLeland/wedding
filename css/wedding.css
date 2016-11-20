@@ -120,6 +120,9 @@ h4 {
   .navbar-custom {
     background-color: #333;
   }
+  .brand-heading {
+  text-shadow: none;
+}
 } 
 
 footer {
