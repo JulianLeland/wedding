@@ -18,12 +18,23 @@ body {
   /*background-color: rgba(255, 255, 255, 0);*/
 }
 
-a {
+a-dark {
   color: #b1b1b1;
   text-decoration: underline;
 }
-a:hover, a:focus {
+
+a-dark:hover, a-dark:focus {
   color: #333;
+  text-decoration: underline;
+}
+
+a-light {
+  color: #b1b1b1;
+  text-decoration: underline;
+}
+
+a-light:hover, a-light:focus {
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -72,7 +83,7 @@ h4 {
 
 .bullet a:hover,
 .bullet a:focus {
-  color: #333;
+  color: #fff;
 }
 
 .navbar-custom {
@@ -102,10 +113,15 @@ h4 {
 
 .intro .intro-body .brand-heading {
   font-size: 60px;
+  
+.a:hover a:focus{
+  color: #fff;
+  text-decoration: underline;
+}
 }
 
 
-@media (min-width: 767px) {
+@media (min-width: 993px) {
 
   .btn-default {
   border: 1px solid #949494;
@@ -125,7 +141,7 @@ h4 {
   
 }
 
-@media (max-width: 767px) {
+@media (max-width: 993px) {
   .navbar-custom {
     background-color: #333;
   }

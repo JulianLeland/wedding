@@ -33,7 +33,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   p {
     margin: 0 0 35px;
     font-size: 20px;
@@ -103,7 +103,7 @@ a:focus {
 .navbar-custom .nav li.active a:hover {
   color: white;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -143,7 +143,7 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .intro {
     height: 100%;
     padding: 0;
