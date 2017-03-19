@@ -18,12 +18,12 @@ body {
   /*background-color: rgba(255, 255, 255, 0);*/
 }
 
-a-dark {
+a.dark {
   color: #b1b1b1;
   text-decoration: underline;
 }
 
-a-dark:hover, a-dark:focus {
+a.dark:hover, a-dark:focus {
   color: #333;
   text-decoration: underline;
   -webkit-transition: all 0.2s ease-in-out;
@@ -31,15 +31,6 @@ a-dark:hover, a-dark:focus {
   transition: all 0.2s ease-in-out;
 }
 
-a-light {
-  color: #b1b1b1;
-  text-decoration: underline;
-}
-
-a-light:hover, a-light:focus {
-  color: #fff;
-  text-decoration: underline;
-}
 
 h1,
 h2,
@@ -87,6 +78,19 @@ h4 {
 .bullet a:hover,
 .bullet a:focus {
   color: #fff;
+}
+
+.bullet a.dark {
+  color: #b1b1b1;
+  text-decoration: underline;
+}
+
+.bullet a.dark:hover, a-dark:focus {
+  color: #333;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .navbar-custom {
@@ -150,7 +154,10 @@ h4 {
   }
   .brand-heading {
   text-shadow: none;
-}
+  }
+  .content-section {
+  padding-top: 100px;
+  }
 } 
 
 footer {
