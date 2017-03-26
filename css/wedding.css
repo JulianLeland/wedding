@@ -31,6 +31,9 @@ a.dark:hover, a-dark:focus {
   transition: all 0.2s ease-in-out;
 }
 
+.light-text {
+  text-shadow:0 0 10px rgba(0,0,0,1);
+}
 
 h1,
 h2,
@@ -73,6 +76,7 @@ h4 {
   font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #b1b1b1;
   text-decoration: underline;
+  text-shadow:0 0 3px rgba(0,0,0,1);
 }
 
 .bullet a:hover,
@@ -83,6 +87,7 @@ h4 {
 .bullet a.dark {
   color: #b1b1b1;
   text-decoration: underline;
+  text-shadow:0 0 0 rgba(0,0,0,0);
 }
 
 .bullet a.dark:hover, a-dark:focus {
